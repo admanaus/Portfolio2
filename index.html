@@ -23,7 +23,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#myPage">Logo</a>
+            <a class="navbar-left" href="#myPage"><img src="images/blinkingDonut.gif" height="50px" title="donut with blinking eyes"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
@@ -39,7 +39,7 @@
 
 <div class="jumbotron text-center">
     <h1>Donat Develops</h1>
-    <p>I specialize in bla bla bla</p>
+    <p>I specialize in eating donuts.</p>
     <!--
     <form>
         <div class="input-group">
@@ -59,10 +59,10 @@
             <h2>About Me</h2><br>
             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <br><button href="#contact" class="btn btn-default btn-lg" >Get in Touch</button>
+            <br><a href="#contact"><button class="btn btn-default btn-lg" >Contact Me</button></a>
         </div>
         <div class="col-sm-4">
-            <span class="glyphicon glyphicon-signal logo"></span>
+            <img src="images/homer.gif" height="300" title="Homer Simpson with a donut dangling above him">
         </div>
     </div>
 </div>
@@ -88,17 +88,17 @@
     <br>
     <div class="row slideanim">
         <div class="col-sm-4">
-            <img src="images/logoHTML.png" height="150px">
+            <img src="images/logoHTML.png" height="150px" title="HTML 5 logo">
             <h4>HTML</h4>
             <p>Lorem ipsum dolor sit amet..</p>
         </div>
         <div class="col-sm-4">
-            <img src="images/logoCSS.jpeg" height="150px">
+            <img src="images/logoCSS.jpeg" height="150px" title="CSS 3 logo">
             <h4>CSS</h4>
             <p>Lorem ipsum dolor sit amet..</p>
         </div>
         <div class="col-sm-4">
-            <img src="images/logoJS.png" height="150px">
+            <img src="images/logoJS.png" height="150px" title="JavaScript Logo">
             <h4>JavaScript</h4>
             <p>Lorem ipsum dolor sit amet..</p>
         </div>
@@ -106,17 +106,17 @@
     <!--<br><br>-->
     <div class="row slideanim">
         <div class="col-sm-4">
-            <img src="images/logoJQ.png" height="150px">
+            <img src="images/logoJQ.png" height="150px" title="jQuery logo">
             <h4>jQuery</h4>
             <p>Lorem ipsum dolor sit amet..</p>
         </div>
         <div class="col-sm-4">
-            <img src="images/logoAJS.png" height="150px">
+            <img src="images/logoAJS.png" height="150px" title="Angular JS logo">
             <h4>Angular JS</h4>
             <p>Lorem ipsum dolor sit amet..</p>
         </div>
         <div class="col-sm-4">
-            <img src="images/logoPython.jpeg" height="150px">
+            <img src="images/logoPython.jpeg" height="150px" title="Python logo">
             <h4>Python</h4>
             <p>Lorem ipsum dolor sit amet..</p>
         </div>
@@ -131,7 +131,7 @@
         <div class="col-sm-4">
             <div>
                 <a href="https://github.com/admanaus">
-                    <img src="images/logoGitHub.png" width="220" height="200">
+                    <img src="images/logoGitHub.png" width="220" height="200" title="GitHub logo">
                 </a>
                 <p><strong>GitHub</strong></p>
                 <p>See my latest commits</p>
@@ -140,7 +140,7 @@
         <div class="col-sm-4">
             <div>
                 <a href="https://www.freecodecamp.com/admanaus">
-                    <img src="images/logoFreeCodeCamp.png"  width="220" height="200">
+                    <img src="images/logoFreeCodeCamp.png"  width="220" height="200" title="Free Code Camp logo">
                 </a>
                 <p><strong>Free Code Camp</strong></p>
                 <p>See what I've been practicing</p>
@@ -149,13 +149,14 @@
         <div class="col-sm-4">
             <div>
                 <a href="https://www.codecademy.com/admanaus">
-                    <img src="images/logoCodeCademy.png" width="220" height="200">
+                    <img src="images/logoCodeCademy.png" width="220" height="200" title="CodeCademy logo">
                 </a>
                 <p><strong>Code Cademy</strong></p>
                 <p>See what I've been learning</p>
             </div>
         </div>
-    </div><br>
+    </div>
+    <br>
 
     <h2>What my mom says about me</h2>
     <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
@@ -265,30 +266,38 @@
         <div class="col-sm-5">
             <p>Contact me and I'll get back when I feel like it.</p>
             <p><span class="glyphicon glyphicon-map-marker"></span> Orem, UT</p>
-            <p><span class="glyphicon glyphicon-phone"></span> 801-234-9889</p>
+            <p><span class="glyphicon glyphicon-cloud"></span> github.com/admanaus</p>
             <p><span class="glyphicon glyphicon-envelope"></span> admanaus@gmail.com</p>
         </div>
         <div class="col-sm-7 slideanim">
-            <div class="row">
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            <form id="myform" method="post" action="http://www.uxcobra.com/sendemail.php">
+            <input type="hidden" name="emailto" value="admanaus@gmail.com"/>
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="subject" name="emailsubject" placeholder="Subject" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="emailheader" placeholder="Email" type="email" required>
+                    </div>
                 </div>
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                <textarea class="form-control" id="content" name="emailcontent" placeholder="Content" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                    </div>
                 </div>
-            </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-            <div class="row">
-                <div class="col-sm-12 form-group">
-                    <button class="btn btn-default pull-right" type="submit">Send</button>
-                </div>
-            </div>
+            </form>
+
         </div>
     </div>
 </div>
 
 <div id="resume" class="container-fluid">
     <h2 class="text-center">RESUME</h2>
+    <div class="text-center">
+        <a href="images/SanitizedAdrienResume.pdf"><button class="btn btn-default btn-lg" >Download as PDF</button></a>
+    </div>
+
 </div>
 <!-- Add Google Maps
 <div id="googleMap" style="height:400px;width:100%;"></div>
@@ -324,6 +333,7 @@
         <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
     <p>Bootstrap Theme Made By <a href="http://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+
 </footer>
 
 <script>
