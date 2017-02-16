@@ -4,8 +4,14 @@ body {
     line-height: 1.8;
     color: #818181;
     font-family: 'Josefin Sans', sans-serif;
+    max-width: 80%;
+    margin: auto;
 
 }
+/*.navbar{*/
+    /*max-width: 80%;*/
+
+/*}*/
 h2 {
     font-size: 24px;
     text-transform: uppercase;
@@ -111,8 +117,8 @@ h4 {
 }
 .navbar {
     margin-bottom: 0;
-    background-color: #bfbfbf;
-    z-index: 9999;
+    background-color: white;
+    /*z-index: 9999;*/
     border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
@@ -121,15 +127,15 @@ h4 {
     font-family: Montserrat, sans-serif;
 }
 .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+    color: black;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #bfbfbf !important;
-    background-color: #fff !important;
+    /*color: #bfbfbf !important;*/
+    /*background-color: #fff !important;*/
 }
 .navbar-default .navbar-toggle {
     border-color: transparent;
-    color: #fff !important;
+    /*color: #fff !important;*/
 }
 footer .glyphicon {
     font-size: 20px;
